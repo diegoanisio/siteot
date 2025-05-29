@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Chakra', Arial, Helvetica, sans-serif;
+
+}
+
+    @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+header{
+    background: #2a669b;
+    background: linear-gradient(90deg, rgba(42, 102, 155, 0.73) 0%, rgba(87, 199, 132, 1) 31%, rgba(237, 178, 83, 1) 100%);
+    padding: 15px;
+
+}
+
+.receitas-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.receita {
+    background: #e4f4f4;
+    border-radius: 20px;
+    padding: 20px;
+    width: 350px;
+    display: flex;
+    transition: transform 0.3s;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.receita img{
+    max-width: 100%;
+    max-height: 250px;
+    display: block;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.receita img:hover{
+    cursor: pointer;
+}
+
+footer h2, p{
+    font-weight: 100;
+    font-size: small;
+}
+
+footer{
+    background-color: #2a669b;
+    text-align: center;
+    color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
